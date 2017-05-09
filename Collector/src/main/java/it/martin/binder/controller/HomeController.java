@@ -21,7 +21,6 @@ public class HomeController extends SuperController
 	public ModelAndView home ( HttpServletRequest request )
 	{
 
-		log.debug( "Home controller" );
 		return new ModelAndView( "home" );
 	}
 }
